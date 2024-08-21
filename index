@@ -1,0 +1,14 @@
+var arr=["hello", "world", "this", "is", "a", "test"];
+for (i = 0; i < arr.length; i++) {
+  if (arr[i].startsWith("h")) {
+    let result=[];
+    result.push(arr[i]);
+    console.log(result);
+}
+  
+}
+let array=["hello", "world", "this", "is", "a", "test"];
+array.shift("hello");
+array.shift("world");
+console.log(array)
+
